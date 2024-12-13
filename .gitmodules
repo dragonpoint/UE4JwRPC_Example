@@ -1,6 +1,6 @@
 [submodule "Plugins/JsonBP"]
 	path = Plugins/JsonBP
-	url = https://github.com/UPO33/UE4JsonBP
+	url = https://github.com/dragonpoint/UE4JsonBP
 [submodule "Plugins/JwRPC"]
 	path = Plugins/JwRPC
-	url = https://github.com/UPO33/UE4JwRPC
+	url = https://github.com/dragonpoint/UE4JwRPC.git
