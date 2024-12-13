@@ -8,7 +8,10 @@ public class ExampleJwRPCEditorTarget : TargetRules
 	public ExampleJwRPCEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-
-		ExtraModuleNames.AddRange( new string[] { "ExampleJwRPC" } );
+        DefaultBuildSettings = BuildSettingsVersion.V5;
+        CppStandard = CppStandardVersion.Cpp20;
+        bOverrideBuildEnvironment = true;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
+        ExtraModuleNames.AddRange( new string[] { "ExampleJwRPC" } );
 	}
 }

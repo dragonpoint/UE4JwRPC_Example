@@ -9,6 +9,7 @@ public class ExampleJwRPCServerTarget : TargetRules
 	public ExampleJwRPCServerTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Server;
-		ExtraModuleNames.AddRange( new string[] { "ExampleJwRPC", } );
+        DefaultBuildSettings = BuildSettingsVersion.V5;
+        ExtraModuleNames.AddRange( new string[] { "ExampleJwRPC", } );
 	}
 }
